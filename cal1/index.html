@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <h1  class="cal">calculetor</h1>
+<div class="container"> 
+<form action="">
+  <p class="cas">casio</p>
+
+<input type="text" id="screen" >
+<br>
+
+<input  onclick="btnclick('7')" class="buttonnum" type="button" value="7">
+<input  onclick="btnclick('8')"  class="buttonnum" type="button" value="8">
+<input  onclick="btnclick('9')" class="buttonnum" type="button" value="9">
+<input   onclick="btnclick('/')" class="buttonopr" type="button" value="\">
+<br>
+<input  onclick="btnclick('4')" class="buttonnum" type="button" value="4">
+<input  onclick="btnclick('5')" class="buttonnum" type="button" value="5">
+<input   onclick="btnclick('6')" class="buttonnum" type="button" value="6">
+<input   onclick="btnclick('*')" class="buttonopr" type="button" value="*">
+<br>
+<input  onclick="btnclick('1')" class="buttonnum" type="button" value="1">
+<input  onclick="btnclick('2')" class="buttonnum" type="button" value="2">
+<input  onclick="btnclick('3')" class="buttonnum" type="button" value="3">
+<input   onclick="btnclick('+')" class="buttonopr" type="button" value="+">
+<br>
+<input   onclick="clearscreen()" class="buttonclear" type="button" value="AC">
+<input  onclick="btnclick('0')" class="buttonnum" type="button" value="0">
+<input onclick="btnclick('-')" class="buttonopr" type="button" value="-">
+<input onclick="findresult()" class="buttonres" type="button" value="=">
+</form>
+</div>
+  <script src="./cal.js"></script>
+  
+</body>
+</html>
